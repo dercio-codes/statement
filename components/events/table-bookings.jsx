@@ -386,10 +386,10 @@ const BookTable = ({ openEvent, setOpenTableBooking }) => {
                                 fontSize: '16px',
                                 padding: { xs: '18px 0', md: '12px 0' },
                                 background: 'red',
-                                color: '#111',
+                                color: '#eee',
                                 "&:hover": {
                                     color: '#111',
-                                    background: '#111',
+                                    background: '#eee',
                                 }
                             }} onClick={() => setOpenTableBooking(false)} > Cancel </Button>
                             <Button sx={{
@@ -399,10 +399,10 @@ const BookTable = ({ openEvent, setOpenTableBooking }) => {
                                 fontSize: '16px',
                                 padding: { xs: '18px 0', md: '12px 0' },
                                 background: '#111',
-                                color: '#111',
+                                color: '#eee',
                                 "&:hover": {
                                     color: '#111',
-                                    background: '#111',
+                                    background: '#eee',
                                 }
                             }} onClick={() => {
                                 initializePayment(onSuccess, onClose)}}> { isProcessing ? <PropagateLoader /> : "Submit Request"} </Button>

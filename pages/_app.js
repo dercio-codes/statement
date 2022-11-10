@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <body>
       <Component {...pageProps} />
-      <ToastContainer toastStyle={{ backgroundColor: "#eee" , color:'#eee' }} />
+      <ToastContainer toastStyle={{ backgroundColor: "#eee" , color:'#111' }} />
 
       </body>
     </div>
