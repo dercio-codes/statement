@@ -94,6 +94,7 @@ export const Events = (props) => {
                     onClick={() => handleEventClick(item)}
                     sx={{
                       height: { xs: "350px", md: "300px" },
+                      cursor:'pointer',
                       width: { xs: "100%", md: "300px" },
                       backgroundSize: "contain",
                       backgroundPosition: "center",
