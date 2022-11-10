@@ -351,10 +351,10 @@ const BookTable = ({ openEvent, setOpenTableBooking }) => {
                                 margin:'0 0px 0px 8px ',
                                 padding: { xs: '20px 8px' },
                                 background: '#111',
-                                color: '#111',
+                                color: '#eee',
                                 "&:hover": {
                                     color: '#111',
-                                    background: '#111',
+                                    background: '#eee',
                                 }}} >
                             Add Person
                         </Button>
