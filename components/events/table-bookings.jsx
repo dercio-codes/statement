@@ -47,7 +47,7 @@ const BookTable = ({ openEvent, setOpenTableBooking }) => {
     });
     const packageName=booking.package
     
-    const bookingReference = `${booking.package.name.replace(/\s/g, '-')}-Table-Booking-for-${booking.name} `
+    const bookingReference = `${booking.package.name.replace(/\s/g, '-')}-Table-Booking-for-${booking.name.replace(/\s/g, '-')} `
     const config = {
         reference: (bookingReference.trim()).toString(),
         currency:"ZAR",
